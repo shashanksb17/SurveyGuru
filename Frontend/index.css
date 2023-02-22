@@ -123,14 +123,75 @@
     padding: 10px 0px 0px 10px;
 }
 #panelurl{
-
+    color: #23527c;
     font-weight: 500;
 }
 #panelurl:hover{
     cursor: pointer;
 }
 
+/* ============================================================== */
+/* typewritting css */
 
+#typing{
+    text-align: center;
+    color:black;
+    padding-top:10em;
+    margin-top: 100px;
+}
+
+* { color:black; text-decoration: none;}
+
+.wrap{
+    font-size: 60px;
+}
+
+#info{
+    margin-top: 20px;
+}
+
+#green-button{
+    margin-top: 20px;
+    background-color: #00ce78;
+    border: none;
+    font-size: 20px;
+    font-family: 900;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+/* ============================================================== */
+/* banner1 css with 5 photos */
+
+#banner1{
+    margin-top: 500px;
+    margin: auto;
+    text-align: center;
+    background-color: #f7f7f7;
+    width: 1050px;
+    height: 550px;
+}
+
+/* ============================================================== */
+/* nav bar sticky */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
 
 
 
