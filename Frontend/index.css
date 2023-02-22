@@ -1,0 +1,136 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#navbar{
+    border: none;
+    height:90px;
+    padding: 15px 80px; 
+    margin: auto;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    z-index: 10;
+}
+#logo>a>img{
+    height: 60px;
+    padding-bottom: -10px;  
+}
+#navbar>div{
+    /* display: flex;
+    justify-content: space-between; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#but{
+    margin: auto;
+    align-items: center;
+    width: 100px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+#login{
+    height: 35px;
+    width: 80px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: white;
+}
+#login:hover{
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(236, 236, 236);
+}
+#signup{
+    height: 35px;
+    width: 130px;
+    border: none;
+    margin-left: 5px;
+    padding: 0px 5px;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #ffc714
+}
+#signup:hover{
+    cursor: pointer;
+    opacity: 85%;
+}
+.panel-heading{
+    background-color: white;
+    border: none;
+}
+.panel-heading1{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+    border-radius: 5px;
+   
+    padding: 5px;
+    width: 180px;
+}
+.panel-heading11{
+    background-color: white;
+    
+    border: none;
+}
+#panel-heading1 hr{
+    margin:0px;
+}
+#panel-heading1 a{
+    padding: 10px;
+}
+.panel-group{
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 100px;
+    border: none;
+    display: flex;
+    gap: 60px;
+    justify-content: space-around;
+}
+.panel{
+    background-color: white;
+    border: none;
+}
+.panel-title{
+    font-size: 16px;
+}
+.panel-title1{
+    
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+#nav-container{
+    display: flex;
+}
+#panel-top{
+    padding: 0px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+#nav-content{
+    margin: auto;
+    color: rgb(112, 112, 112);
+}
+#panel-body{
+    padding: 10px 0px 0px 10px;
+}
+#panelurl{
+
+    font-weight: 500;
+}
+#panelurl:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
