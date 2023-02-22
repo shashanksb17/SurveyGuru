@@ -3,8 +3,12 @@
     margin: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+body{
+    padding-bottom: 30px;
+}
 #navbar{
     border: none;
+    /* overflow: hidden; */
     height:90px;
     padding: 15px 80px; 
     margin: auto;
@@ -37,6 +41,7 @@
     height: 35px;
     width: 80px;
     border: none;
+    color: black;
     font-weight: 500;
     font-size: 16px;
     background-color: white;
@@ -50,6 +55,7 @@
     height: 35px;
     width: 130px;
     border: none;
+    color: black;
     margin-left: 5px;
     padding: 0px 5px;
     font-weight: 500;
@@ -129,6 +135,313 @@
 #panelurl:hover{
     cursor: pointer;
 }
+/* ============================================================== */
+/* typewritting css */
+
+#typing{
+    text-align: center;
+    color:black;
+    padding-top:10em;
+    margin-top: 50px;
+}
+
+* { color:black; text-decoration: none;}
+
+.wrap{
+    font-size: 60px;
+}
+
+#info{
+    margin-top: 20px;
+}
+
+#green-button{
+    margin-top: 20px;
+    background-color: #00ce78;
+    border: none;
+    font-size: 20px;
+    font-family: 900;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+/* ============================================================== */
+/* banner1 css with 5 photos */
+
+#banner1{
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+    background-color: #f7f7f7;
+    width: 1050px;
+    height: 630px;
+}
+
+#who{
+    padding-top: 20px;
+}
+
+#audience>button{
+    background-color: white;
+    border: none;
+    width: 180px;
+    height: 35px;
+    margin: 0px 10px;
+}
+
+#audience>button:hover{
+    background-color: #f7f8fa;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    transition-delay: 1ms;
+}
+
+#grid_container{
+    margin: auto;
+    margin-left: -140px;
+    display: flex;
+    scale: .8;
+}
+#grid_container>#first{
+    margin-right: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: scale 300ms;
+}
+
+#grid_container>#allfour{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
+}
+#grid_container>#allfour>img{
+    transition: scale 300ms;
+}
+
+#grid_container>#first:hover{
+    scale: 1.05;
+}
+
+#grid_container>#allfour>img:hover{
+    scale: 1.05;
+}
+
+
+/* ============================================================== */
+/* banner2 */
+
+#banner2>h4{
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+#banner2>div>img{
+    width: 100%;
+    margin-top: 50px;
+}
+
+/* ============================================================== */
+/* banner3 */
+
+
+#banner3 {
+    margin: auto;
+    margin-top: 75px;
+    width: 70%;
+    height: auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#banner3>h3{
+    padding-top: 50px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#banner3>h4{
+    padding-top: 50px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#banner3>div{
+    padding-top: 50px;
+    display: flex;
+    scale: .9;
+    justify-content: space-around;
+}
+#banner3>div>img{
+    margin: 0px 10px;
+    transition: scale 300ms;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 10px;
+}
+#banner3>div>img:hover{
+    scale: 1.05;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+/* ============================================================== */
+/* banner4 */
+
+#banner4>img{
+    padding-top: 50px;
+    width: 100%;
+}
+
+/* ============================================================== */
+/* banner5 */
+
+#banner5 {
+
+    margin: auto;
+    margin-top: 75px;
+    text-align: center;
+    font-size: 17px;
+
+}
+
+#banner5>p {
+    margin: 25px;
+    font-weight: 450;
+}
+
+#banner5>p>#blue{
+    color: #23527c;
+}
+
+/* ============================================================== */
+/* banner9 */
+
+#banner9 {
+
+    margin: auto;
+    margin-top: 75px;
+    text-align: center;
+    font-size: 17px;
+
+}
+#banner9 p {
+    padding-top: 20px;
+}
+
+/* ============================================================== */
+/* banner10 */
+
+#banner10>img{
+    padding-top: 50px;
+    width: 100%;
+}
+    
+/* ============================================================== */
+/* banner7 to 8*/
+
+#banner7 {
+    margin: auto;
+    margin-top: 75px;
+    padding: 25px 0px 25px;
+    background-color: rgb(247, 247, 247);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#banner7>div {
+    width: 75%;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#banner7>div>div {
+    width: 40%;
+    font-size: 17px;
+}
+
+#banner7>div>div>p {
+    margin: 10px;
+    font-size: 16px;
+}
+
+#banner7>div>div>button {
+    margin: 20px auto 20px;
+    padding: 10px 25px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+    font-size: medium;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#banner8 {
+    margin: auto;
+    margin-top: 75px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#banner8>p {
+    margin: 20px;
+}
+
+#banner8>div {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#banner8>div>div {
+    width: 30%;
+    margin: auto;
+    padding: 50px;
+    scale: 1.2;
+}
+
+#banner8>div>div:hover {
+    cursor: pointer;
+   scale: 1.2;
+}
+
+#banner8>div>div>img {
+    width: 100%;
+}
+
+#banner8>div>div>p {
+    margin: 15px;
+    text-align: start;
+}
+
+#banner8 #blue{
+    color: #23527c;
+}
+
+/* ============================================================== */
+/* banner11 */
+
+#banner11>img{
+    padding-top: 50px;
+    width: 100%;
+}
+
+/* ============================================================== */
+/* banner12 */
+
+#banner12>img{
+    padding-top: 50px;
+    width: 100%;
+}
+
+
+
 
 /* ============================================================== */
 /* typewritting css */

@@ -58,19 +58,9 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
 };
+
+
 //===============================================================================================
-//nav bar sticky
 
 
-
-var navbar = document.querySelector("navbar");
-let top = navbar.offsetTop;
-function stickynavbar() {
-  if (window.scrollY >= top) {    
-    navbar.classList.add('sticky');
-  } else {
-    navbar.classList.remove('sticky');    
-  }
-}
-window.addEventListener('scroll', stickynavbar);
 
