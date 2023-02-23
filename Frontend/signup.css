@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#logo{
+    height: 80px;
+}
+#main{
+    width: 550px;
+    margin: auto;
+    margin-top: 20px;
+}
+#container{
+    padding: 40px;
+    margin: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#container>p{
+    float: right;
+    margin: 0px 0px;
+}
+#container>p>span>a{
+    color: #007fbd;
+    text-decoration: none;
+    cursor: pointer;
+    font-style: none;
+}
+#container>p>span>a:hover{
+    text-decoration: underline;
+}
+#container>h1{
+    font-weight: 100;
+    width: 300px;
+    margin-top: 30px;
+}
+#container>h5{
+    font-weight: 400;
+    margin: 10px 0px;
+}
+#container>input{
+    padding: 5px;
+    font-size: 20px;
+    width: 418px;
+    height: 40px;
+}
+#checker{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+#checker>input{
+    margin-top: 5px;
+    scale: 1.5;
+}
+#checker>p{
+    font-size: 13px;
+}
+#next{
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    margin-top: 20px;
+    width: 430px;
+    height: 50px;
+    background-color: #00ce78;
+}
+#next:hover{
+    cursor: pointer;
+    opacity: 85%;
+}
+#container>hr{
+    margin-top: 20px;
+    width: 430px;
+}
+#container>#bottom>p{
+    margin-top: 10px;
+}
+#container>#bottom>img{
+    margin-top: 0px;
+    width: 100%;
+}
+#container>#forgot{
+    margin-top: 20px;
+    font-weight: 400;
+    color: #005977;
+}
+#container>#forgot:hover{
+    text-decoration: underline;
+}
