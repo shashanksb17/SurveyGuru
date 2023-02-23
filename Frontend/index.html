@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="index.js"></script>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div id="navbar">
+    <div id="navbar" class="sticky">
         <div id="logo">
             <a href="index.html">
                 <img src="https://iili.io/HGkMXoB.jpg">
@@ -195,6 +196,55 @@
         <p style="font-size: 30px; font-weight: 600;">Start with an expert-written template</p>
         <p><span id="blue"> Our sample survey templates</span> make it easy for you to start collecting feedback in just minutes.<br>Explore hundreds of questions across different survey types, all designed<br>to get you accurate results you can rely on.</p>
     </div>
+
+<!-- ===================================== -->
+<!-- scroll products -->
+
+    <div id="container">
+        <div id="left-container">
+            <p id="show-all-templates"></p>
+            <div>
+                <input type="text" placeholder="Search"><span class="material-symbols-outlined"><i class="fa fa-search" id="search"></i></span>
+            </div>
+            <p>Filter by survey type</p>
+            <div id="left-container-labels">
+                <div>
+                    <input class="checkbox" onclick="sortby()" name="checkbox" data-id="" type="radio" value="customers">
+                    <label style="margin-bottom: -5px;">Customers</label>
+                </div>
+                <div>
+                    <input class="checkbox" onclick="sortby()" name="checkbox" data-id="" type="radio" value="education">
+                    <label style="margin-bottom: -5px;">Education</label> 
+                </div>
+                <div>
+                    <input class="checkbox" onclick="sortby()" name="checkbox" data-id="" type="radio" value="employees">
+                    <label style="margin-bottom: -5px;">Employees</label> 
+                </div>
+                <div>
+                    <input class="checkbox" name="checkbox" data-id="" type="radio" value="events">
+                    <label style="margin-bottom: -5px;">Events</label> 
+                </div>
+                <div>
+                    <input class="checkbox" name="checkbox" data-id="" type="radio" value="healthcare">
+                    <label style="margin-bottom: -5px;">Healthcare</label> 
+                </div>
+                <div>
+                    <input class="checkbox" name="checkbox" data-id="" type="radio" value="market research">
+                    <label style="margin-bottom: -5px;">Market Research</label> 
+                </div>
+                <div>
+                    <input class="checkbox" name="checkbox" data-id="" type="radio" value="nonprofit">
+                    <label style="margin-bottom: -5px;">Nonprofit</label> 
+                </div>
+                <div>
+                    <input class="checkbox" name="checkbox" data-id="" type="radio" value="other">
+                    <label style="margin-bottom: -5px;">Other</label> 
+                </div>
+            </div>
+        </div>
+        <div id="right-container"></div>
+    </div>
+
     <div id="banner9">
         <p style="font-size: 30px; font-weight: 600;">Tools that spark business breakthroughs</p>
         <p> Discover specialized toolkits designed for your role and industry.</p>
@@ -203,6 +253,7 @@
         <img src="https://iili.io/HG6Yqg9.jpg" alt="">
     </div>
 <!-- ===================================== -->
+<!-- footer -->
     <div id="banner7">
         <p style="font-size: 30px; font-weight: 600;">Go beyond collecting feedback-deliver better<br>experiences that drive your business</p>
         <div>
