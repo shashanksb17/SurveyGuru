@@ -1,0 +1,54 @@
+/* ============================================================== */
+/* nav bar sticky */
+
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+  }
+
+  /* ============================================================== */
+/* nav bar banner101 */
+
+#banner101{
+    margin-top: -40px;
+    height: 500px;
+    color: white;
+    background-color: #902b3c;
+}
+#banner101>div{
+    margin: auto;
+    text-align: center;
+    width: 800px;
+}
+#banner101>div>h1{
+    font-size: 35px;
+    padding-top: 100px;
+}
+#banner101>div>p{
+    padding-top: 50px;
+    font-size: 25px;
+}
+
+#banner5{
+    margin-top: 50px;
+    text-align: center;
+}
+#banner5>div>button{
+    background-color: white;
+    border: none;
+    color: #04bd6f;
+    font-size: 20px;
+    font-weight: 500;
+    margin:0px 10px;
+    
+}
+#banner5>div>button:hover{
+    border-bottom: 3px solid #009154;
+}
+#banner5>div>img{
+    margin-top: 50px;
+    width: 100%;
+}
