@@ -22,6 +22,7 @@ body{
 #logo>a>img{
     height: 60px;
     padding-bottom: -10px;  
+    border: none;
 }
 #navbar>div{
     /* display: flex;
@@ -135,122 +136,155 @@ body{
 #panelurl:hover{
     cursor: pointer;
 }
-/* ============================================================== */
-/* typewritting css */
-
-#typing{
-    text-align: center;
-    color:black;
-    margin-bottom: 150px;
-    margin-top: -50px;
-}
-
-* { color:black; text-decoration: none;}
-
-.wrap{
-    font-size: 60px;
-}
-
-#info{
-    margin-top: 20px;
-}
-
-#green-button{
-    margin-top: 20px;
-    background-color: #00ce78;
-    border: none;
-    font-size: 20px;
-    font-family: 900;
-    color: white;
-    height: 50px;
-    width: 150px;
-    border-radius: 5px;
-}
 
 /* ============================================================== */
-/* banner1 css with 5 photos */
+/* banner1 */
 
 #banner1{
-    margin: auto;
-    margin-top: 200px;
-    text-align: center;
-    background-color: #f7f7f7;
-    width: 1050px;
-    height: 630px;
-}
-
-#who{
-    padding-top: 20px;
-}
-
-#audience>button{
-    background-color: white;
-    border: none;
-    width: 180px;
-    height: 35px;
-    margin: 0px 10px;
-}
-
-#audience>button:hover{
-    background-color: #f7f8fa;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    cursor: pointer;
-    transition-delay: 1ms;
-}
-
-#grid_container{
-    margin: auto;
-    margin-left: -140px;
+    background-color: #cae8dc;
     display: flex;
-    scale: .8;
+    width: 100%;
+
 }
-#grid_container>#first{
-    margin-right: 10px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    transition: scale 300ms;
+#banner1>div>img{
+    width: 100%;
+}
+#banner1>#left{
+    padding: 120px;
+    width: 750px;
+}
+#banner1>#right{
+    padding: 50px;
+    width: 750px;
+}
+#banner1>#left>h1{
+    margin-top: 30px;
+    color: #224f3c;
+    font-size: 45px;
+}
+#banner1>#left>p{
+    margin-top: 30px;
+    color: #224f3c;
+    font-size: 20px;
+}
+#banner1>#left>div{
+    margin-top: 30px; 
+}
+#banner1>#left>div>a>#signup{
+    height: 40px;
 }
 
-#grid_container>#allfour{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 10px;
-   
-    
+#banner1>#left>div>a>#templates{
+    margin-left: 40px;
+    height: 40px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: 150px;
+    color: #000000;
+    font-weight: 500;
+    cursor: pointer;
 }
-#grid_container>#allfour>img{
-    transition: scale 300ms;
-     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+#banner1>#left>div>a>#templates:hover{
+   background-color: rgb(222, 222, 222);
 }
-
-#grid_container>#first:hover{
-    scale: 1.05;
-}
-
-#grid_container>#allfour>img:hover{
-    scale: 1.05;
-}
-
 
 /* ============================================================== */
 /* banner2 */
 
-#banner2>h4{
+#banner2>#card{
+    display: flex;
+    padding: 50px;
+}
+#banner2>#card>#text{
+    width: 800px;
+    padding: 50px;
+}
+#banner2>#card>#text>p{
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 16px;
+}
+#banner2>#card>#text>p>#blue{
+    color: #23527c;
+
+}
+#blue:hover{
+    text-decoration: underline;
+}
+
+#banner3>h4{
     margin: auto;
     text-align: center;
     margin-top: 80px;
     font-size: 20px;
 }
 
-#banner2>div>img{
+/* ============================================================== */
+/* banner3 */
+
+#banner3>div>img{
     width: 100%;
     margin-top: 50px;
 }
 
 /* ============================================================== */
-/* banner3 */
+/* banner4 */
+
+#banner4>img{
+    margin-top: 50px;
+    width: 100%;
+}
+
+/* ============================================================== */
+/* banner5 */
+
+#banner5>img{
+    margin-top: 50px;
+    width: 100%;
+}
+
+/* ============================================================== */
+/* banner6 */
+
+#banner6 {
+
+    margin: auto;
+    margin-top: 75px;
+    text-align: center;
+    font-size: 17px;
+
+}
+
+#banner6>p {
+    width: 650px;
+    margin-top: 50px;
+    margin-left: 450px;
+    font-weight: 450;
+}
+
+#banner6>#templates{
+    margin-left: 40px;
+    margin-top: 50px;
+    height: 40px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: 250px;
+    color: #000000;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#banner6>#templates:hover{
+    background-color: rgb(222, 222, 222);
+ }
 
 
-#banner3 {
+/* ============================================================== */
+/* banner7 */
+
+ #banner7 {
     margin: auto;
     margin-top: 75px;
     width: 70%;
@@ -261,246 +295,44 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#banner3>h3{
+#banner7>h3{
     padding-top: 50px;
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#banner3>h4{
+#banner7>h4{
     padding-top: 50px;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#banner3>div{
+#banner7>div{
     padding-top: 50px;
     display: flex;
     scale: .9;
     justify-content: space-around;
 }
-#banner3>div>img{
+#banner7>div>img{
     margin: 0px 10px;
     transition: scale 300ms;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
     border-radius: 10px;
 }
-#banner3>div>img:hover{
+#banner7>div>img:hover{
     scale: 1.05;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 }
 
 /* ============================================================== */
-/* banner4 */
+/* banner8 */
 
-#banner4>img{
-    padding-top: 50px;
+#banner8>img{
+    margin-top: 50px;
     width: 100%;
 }
 
 /* ============================================================== */
-/* banner5 */
-
-#banner5 {
-
-    margin: auto;
-    margin-top: 75px;
-    text-align: center;
-    font-size: 17px;
-
-}
-
-#banner5>p {
-    margin: 25px;
-    font-weight: 450;
-}
-
-#banner5>p>#blue{
-    color: #23527c;
-}
-
-/* ============================================================== */
-/* banner9 */
-
-#banner9 {
-
-    margin: auto;
-    margin-top: 75px;
-    text-align: center;
-    font-size: 17px;
-
-}
-#banner9 p {
-    padding-top: 20px;
-}
-
-/* ============================================================== */
-/* banner10 */
-
-#banner10>img{
-    padding-top: 50px;
-    width: 100%;
-}
-    
-/* ============================================================== */
-/* banner7 to 8*/
-
-#banner7 {
-    margin: auto;
-    margin-top: 75px;
-    padding: 25px 0px 25px;
-    background-color: rgb(247, 247, 247);
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-#banner7>div {
-    width: 75%;
-    margin: auto;
-    margin-top: 25px;
-    display: flex;
-    justify-content: space-between;
-}
-
-#banner7>div>div {
-    width: 40%;
-    font-size: 17px;
-}
-
-#banner7>div>div>p {
-    margin: 10px;
-    font-size: 16px;
-}
-
-#banner7>div>div>button {
-    margin: 20px auto 20px;
-    padding: 10px 25px 10px;
-    border-radius: 5px;
-    border: 1px solid black;
-    background-color: white;
-    font-size: medium;
-    font-weight: 500;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-#banner8 {
-    margin: auto;
-    margin-top: 75px;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-#banner8>p {
-    margin: 20px;
-}
-
-#banner8>div {
-    width: 90%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-#banner8>div>div {
-    width: 30%;
-    margin: auto;
-    padding: 50px;
-    scale: 1.2;
-}
-
-#banner8>div>div:hover {
-    cursor: pointer;
-   scale: 1.2;
-}
-
-#banner8>div>div>img {
-    width: 100%;
-}
-
-#banner8>div>div>p {
-    margin: 15px;
-    text-align: start;
-}
-
-#banner8 #blue{
-    color: #23527c;
-}
-
-/* ============================================================== */
-/* banner11 */
-
-#banner11>img{
-    padding-top: 50px;
-    width: 100%;
-}
-
-/* ============================================================== */
-/* banner12 */
-
-#banner12>img{
-    padding-top: 50px;
-    width: 100%;
-}
-
-
-
-
-/* ============================================================== */
-/* typewritting css */
-
-#typing{
-    text-align: center;
-    color:black;
-    padding-top:10em;
-    margin-top: 100px;
-}
-
-* { color:black; text-decoration: none;}
-
-.wrap{
-    font-size: 60px;
-}
-
-#info{
-    margin-top: 20px;
-}
-
-#green-button{
-    margin-top: 20px;
-    background-color: #00ce78;
-    border: none;
-    font-size: 20px;
-    font-family: 900;
-    color: white;
-    height: 50px;
-    width: 150px;
-    border-radius: 5px;
-}
-
-/* ============================================================== */
-/* banner1 css with 5 photos */
-
-#banner1{
-    margin-top: 500px;
-    margin: auto;
-    text-align: center;
-    background-color: #f7f7f7;
-    width: 1050px;
-    height: 550px;
-}
-
-/* ============================================================== */
-/* nav bar sticky */
-
-
-  .sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-
-  }
-
-  
-/* ============================================================== */
+/* scroll */
 
 
 #container{
@@ -625,5 +457,75 @@ body{
     font-size: 18px;
 }
 
+/* ============================================================== */
+/* banner9 */
+
+#banner9 {
+    margin: auto;
+    margin-top: 75px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#banner9>p {
+    margin: 20px;
+}
+
+#banner9>div {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#banner9>div>div {
+    width: 30%;
+    margin: auto;
+    padding: 50px;
+    scale: 1.2;
+}
+
+#banner9>div>div:hover {
+    cursor: pointer;
+   scale: 1.2;
+}
+
+#banner9>div>div>img {
+    width: 100%;
+}
+
+#banner9>div>div>p {
+    margin: 15px;
+    text-align: start;
+}
+
+#banner9 #blue{
+    color: #23527c;
+}
+
+/* ============================================================== */
+/* banner11 */
+
+#banner11>img{
+    padding-top: 50px;
+    width: 100%;
+}
+
+/* ============================================================== */
+/* banner12 */
+
+#banner12>img{
+    padding-top: 50px;
+    width: 100%;
+}
+
+/* ============================================================== */
+/* nav bar sticky */
 
 
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+  }

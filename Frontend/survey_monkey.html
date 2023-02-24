@@ -10,7 +10,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="index.js"></script>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="survey_monkey.css">
 </head>
 <body>
     <div id="navbar" class="sticky">
@@ -138,49 +138,80 @@
         </div>
     </div>
 
-    <div id="typing">
-       <h1>
-        <a href="" class="typewrite" data-period="2000" data-type='[ "Are my employees happy at work?", "Do people like attending my events?", "Are my customers actually satisfied?", "Are my customers actually satisfied?" ]'>
-
-          <span class="wrap"></span>
-        </a>
-      </h1>
-      <h4 id="info">A global leader in survey software. 20 million questions answered daily.</h4>
-      <button id="green-button">Get started</button>
-    </div>
-    
     <div id="banner1">
-        <div id="who">
-            <h3>Who is your survey audience?</h3>
-        </div>
-        <div id="audience">
-            <button>Employees</button>
-            <button>Customers</button>
-            <button>Target Markets</button>
-            <button>Other</button>
-        </div>
-
-        <div id="grid_container">
-            <div id="first">
-                <img src="https://iili.io/HG4YCan.jpg" alt="">
+        <div id="left">
+            <h1>Create your own surveys</h1>
+            <p>Explore the platform to find out how easy it is to find the answers
+                you need with surveys and forms.</p>
+            <div>
+                <a href="signup.html"><button id="signup">Sign up Free</button></a>
+                <a href="login.html"><button id="templates">Explore templates</button></a>
             </div>
-            <div id="allfour">
-                <img src="https://iili.io/HG4aD5g.jpg" alt="">
-                <img src="https://iili.io/HG4cvBp.jpg" alt="">
-                <img src="https://iili.io/HG4l6KB.jpg" alt="">
-                <img src="https://iili.io/HG40HlI.jpg" alt="">
-
-            </div>
-
+        </div>
+        <div id="right">
+            <img src="https://prod.smassets.net/assets/content/sm/hero-top-2x-take-a-tour-rebrand.png" alt="">
         </div>
     </div>
+
     <div id="banner2">
-        <h4>Join more than 17 million active users worldwide</h4>
+        <div id="card">
+            <img src="https://prod.smassets.net/assets/content/sm/TaT-Create.gif" alt="">
+            <div id="text">
+                <h1>Easily create surveys and forms fast</h1>
+                <p>Ask the right questions with <span id="blue">A1-powered guidance</span>, logic, and so many question types. Or choose from 250+ expert-written survey templates that you can customize to match your brand's look and feel.</p>
+                <p><span id="blue">Learn more about creating surveys ></span></p>
+            </div>
+        </div>
+        <div id="card">
+            <div id="text">
+                <h1>Collect information and
+                    feedback from almost
+                    anywhere</h1>
+                <p>Listen to what people want by collecting responses from
+                    your stakeholders using web links, email, or by
+                    embedding surveys and forms on your website. We also
+                    offer a <span id="blue"></span>global panel</span> that you can leverage to collect
+                    valuable market insights.</p>
+            </div>
+            <img src="https://prod.smassets.net/assets/content/sm/TaT-Analyze.gif" alt="">
+        </div>
+        <div id="card">
+            <img src="https://prod.smassets.net/assets/content/sm/TaT-Analyze.gif" alt="">
+            <div id="text">
+                <h1>Uncover insights that you can
+                    act on quickly</h1>
+                <p>Analyze responses at scale using simple, built-in reports
+                    or advanced dashboards that you can customize and
+                    share with your team. Or export and analyze your data
+                    in your favorite software.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="banner3">
+        <h4>Leading brands ask, listen, and act with SurveyGuru</h4>
         <div>
             <img src="https://iili.io/HG4i6jn.jpg" alt="">
         </div>
     </div>
-    <div id="banner3">
+
+    <div id="banner4">
+        <img src="https://iili.io/HMoSc0P.jpg" alt="">
+    </div>
+
+    <div id="banner5">
+        <img src="https://prod.smassets.net/assets/content/sm/integrations-take-a-tour-rebrand.png" alt="">
+    </div>
+
+    <div id="banner6">
+        <p style="font-size: 30px; font-weight: 600;">Save time with powerful integrations</p>
+        <p>Connect your surveys to automate workflows with our Mailchimp, HubSpot, Zoom,
+            Google Drive, Microsoft Teams, and Constant Contact integrations. Or use our API to
+            build and customize your own.</p>
+        <button id="templates">Explore integrations</button>
+    </div>
+
+    <div id="banner7">
         <h3>Choose a plan that works for you</h3>
         <h4>Get an individual plan with features that you need, or create a team instead!</h4>
         <div>
@@ -189,119 +220,93 @@
             <img src="https://iili.io/HG69C0X.jpg" alt="">
         </div>
     </div>
-    <div id="banner4">
-        <img src="https://iili.io/HG6FngS.jpg" alt="">
-    </div>
-    <div id="banner5">
-        <p style="font-size: 30px; font-weight: 600;">Start with an expert-written template</p>
-        <p><span id="blue"> Our sample survey templates</span> make it easy for you to start collecting feedback in just minutes.<br>Explore hundreds of questions across different survey types, all designed<br>to get you accurate results you can rely on.</p>
+
+    <div id="banner8">
+        <img src="https://iili.io/HMoicZu.jpg" alt="">
     </div>
 
-<!-- ===================================== -->
+    <!-- ===================================== -->
 <!-- scroll products -->
 
-    <div id="container">
-        <div id="left-container">
-            <p id="show-all-templates"></p>
-            <div>
-                <input type="text" placeholder="Search"><span class="material-symbols-outlined"><i class="fa fa-search" id="search"></i></span>
-            </div>
-            <p>Filter by survey type</p>
-            <div id="left-container-labels">
-                <div>
-                    <input class="checkbox" onclick="sortby()" name="checkbox" data-id="" type="radio" value="customers">
-                    <label style="margin-bottom: -5px;">Customers</label>
-                </div>
-                <div>
-                    <input class="checkbox" onclick="sortby()" name="checkbox" data-id="" type="radio" value="education">
-                    <label style="margin-bottom: -5px;">Education</label> 
-                </div>
-                <div>
-                    <input class="checkbox" onclick="sortby()" name="checkbox" data-id="" type="radio" value="employees">
-                    <label style="margin-bottom: -5px;">Employees</label> 
-                </div>
-                <div>
-                    <input class="checkbox" name="checkbox" data-id="" type="radio" value="events">
-                    <label style="margin-bottom: -5px;">Events</label> 
-                </div>
-                <div>
-                    <input class="checkbox" name="checkbox" data-id="" type="radio" value="healthcare">
-                    <label style="margin-bottom: -5px;">Healthcare</label> 
-                </div>
-                <div>
-                    <input class="checkbox" name="checkbox" data-id="" type="radio" value="market research">
-                    <label style="margin-bottom: -5px;">Market Research</label> 
-                </div>
-                <div>
-                    <input class="checkbox" name="checkbox" data-id="" type="radio" value="nonprofit">
-                    <label style="margin-bottom: -5px;">Nonprofit</label> 
-                </div>
-                <div>
-                    <input class="checkbox" name="checkbox" data-id="" type="radio" value="other">
-                    <label style="margin-bottom: -5px;">Other</label> 
-                </div>
-            </div>
-        </div>
-        <div id="right-container"></div>
-    </div>
-
-    <div id="banner9">
-        <p style="font-size: 30px; font-weight: 600;">Tools that spark business breakthroughs</p>
-        <p> Discover specialized toolkits designed for your role and industry.</p>
-    </div>
-    <div id="banner10">
-        <img src="https://iili.io/HG6Yqg9.jpg" alt="">
-    </div>
-<!-- ===================================== -->
-<!-- footer -->
-    <div id="banner7">
-        <p style="font-size: 30px; font-weight: 600;">Go beyond collecting feedback-deliver better<br>experiences that drive your business</p>
+<div id="container">
+    <div id="left-container">
+        <p id="show-all-templates"></p>
         <div>
+            <input type="text" placeholder="Search"><span class="material-symbols-outlined"><i class="fa fa-search" id="search"></i></span>
+        </div>
+        <p>Filter by survey type</p>
+        <div id="left-container-labels">
             <div>
-                <img src="https://prod.smassets.net/assets/cms/sm/uploads//Momentive-Symbol-RGB-1-1.png">
-                <p style="font-size: 25px; font-weight: 600;">Momentive Solutions</p>
-                <p>Get a platform that can grow and change along with your survey needs over time. Browse our plans to learn more about specific features.</p>
-                <button>Visit Momentive</button>
+                <input class="checkbox" onclick="sortby()" name="checkbox" data-id="" type="radio" value="customers">
+                <label style="margin-bottom: -5px;">Customers</label>
             </div>
             <div>
-                <img src="https://prod.smassets.net/assets/cms/sm/uploads//gfp-logo-rgb-2x-1.png">
-                <p style="font-size: 25px; font-weight: 600;">GetFeedback</p>
-                <p>Manage your company’s data with advanced security and control, so you can enable your teams to share and collaborate safely.</p>
-                <button>Visit GetFeedback</button>
+                <input class="checkbox" onclick="sortby()" name="checkbox" data-id="" type="radio" value="education">
+                <label style="margin-bottom: -5px;">Education</label> 
+            </div>
+            <div>
+                <input class="checkbox" onclick="sortby()" name="checkbox" data-id="" type="radio" value="employees">
+                <label style="margin-bottom: -5px;">Employees</label> 
+            </div>
+            <div>
+                <input class="checkbox" name="checkbox" data-id="" type="radio" value="events">
+                <label style="margin-bottom: -5px;">Events</label> 
+            </div>
+            <div>
+                <input class="checkbox" name="checkbox" data-id="" type="radio" value="healthcare">
+                <label style="margin-bottom: -5px;">Healthcare</label> 
+            </div>
+            <div>
+                <input class="checkbox" name="checkbox" data-id="" type="radio" value="market research">
+                <label style="margin-bottom: -5px;">Market Research</label> 
+            </div>
+            <div>
+                <input class="checkbox" name="checkbox" data-id="" type="radio" value="nonprofit">
+                <label style="margin-bottom: -5px;">Nonprofit</label> 
+            </div>
+            <div>
+                <input class="checkbox" name="checkbox" data-id="" type="radio" value="other">
+                <label style="margin-bottom: -5px;">Other</label> 
             </div>
         </div>
     </div>
-    <div id="banner8">
-        <p style="font-size: 30px; font-weight: 600;">Still curious?</p>
-        <p>Explore these additional resources to help you launch successful survey projects.</p> 
-        <div>
-            <div>
-                <img src="https://prod.smassets.net/assets/cms/sm/uploads//golden-state-warriors.png">
-                <h4>Success Stories</h4>
-                <p>Read about our customers, explore our webinars, and get guides on collecting feedback in your industry.</p>
-                <p id="blue">Explore resources</p>
-            </div>
-            <div>
-                <img src="https://prod.smassets.net/assets/cms/sm/uploads//blog-tile-card.png">
-                <h4>Blog</h4>
-                <p>Get tips on how to create better surveys, hear the latest product news, or check out our signature research.</p>
-                <p id="blue">See Curiosity at Work</p>
-            </div>
-            <div>
-                <img src="https://prod.smassets.net/assets/cms/sm/uploads//help-center-tile.png">
-                <h4>Help Center</h4>
-                <p>Access tutorials on how features work, learn more about billing, contact Customer Support, and more.</p>
-                <p id="blue">Visit Help Center</p>
-            </div>
-        </div>
-    </div>
-    <div id="banner11">
-        <img src="https://iili.io/HG6ewb4.jpg" alt="">
-    </div>
-    <div id="banner12">
-        <img src="https://iili.io/HG68eXR.jpg" alt="">
+    <div id="right-container"></div>
+</div>
 
+<div id="banner9">
+    <p style="font-size: 30px; font-weight: 600;">Still curious?</p>
+    <p>Explore these additional resources to help you launch successful survey projects.</p> 
+    <div>
+        <div>
+            <img src="https://prod.smassets.net/assets/cms/sm/uploads//golden-state-warriors.png">
+            <h4>Success Stories</h4>
+            <p>Read about our customers, explore our webinars, and get guides on collecting feedback in your industry.</p>
+            <p id="blue">Explore resources</p>
+        </div>
+        <div>
+            <img src="https://prod.smassets.net/assets/cms/sm/uploads//blog-tile-card.png">
+            <h4>Blog</h4>
+            <p>Get tips on how to create better surveys, hear the latest product news, or check out our signature research.</p>
+            <p id="blue">See Curiosity at Work</p>
+        </div>
+        <div>
+            <img src="https://prod.smassets.net/assets/cms/sm/uploads//help-center-tile.png">
+            <h4>Help Center</h4>
+            <p>Access tutorials on how features work, learn more about billing, contact Customer Support, and more.</p>
+            <p id="blue">Visit Help Center</p>
+        </div>
     </div>
+</div>
+<div id="banner11">
+    <img src="https://iili.io/HG6ewb4.jpg" alt="">
+</div>
+<div id="banner12">
+    <img src="https://iili.io/HG68eXR.jpg" alt="">
+
+</div>
+
+
+    
     
 </body>
 </html>
