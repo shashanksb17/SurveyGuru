@@ -1,0 +1,35 @@
+{
+  "name": "interesting_vase_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shashanksb17/interesting_vase_Backend.git"
+  },
+  "keywords": [
+    "node",
+    "upload",
+    "multiple",
+    "files",
+    "images",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shashanksb17/interesting_vase_Backend/issues"
+  },
+  "homepage": "https://github.com/shashanksb17/interesting_vase_Backend#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20"
+  }
+}
