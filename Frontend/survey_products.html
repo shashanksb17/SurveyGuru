@@ -5,12 +5,131 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey Guru: The World's Most Popular Online Survey Tool</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="index.js"></script>
-    <link rel="stylesheet" href="index.css">
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#container{
+    /* border: 1px solid red; */
+    width: 90vw;
+    margin: auto;
+    height: 75vh;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#left-container{
+    width: 22%;
+    /* overflow-y: scroll; */
+    padding-left: 30px;
+    padding-top: 30px;
+    border-right: 1px solid rgb(99, 98, 98);
+}
+
+#left-container>div:nth-child(2){
+    border: 1px solid rgb(117, 117, 117);
+    border-radius: 5px;
+    height: 40px;
+    width: 230px;
+    margin-bottom: 10px;
+}
+
+#left-container>div:nth-child(2)>input{
+    width: 215px;
+    border: none;
+    position: absolute;
+    height: 29px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    font-size: 18px;
+    background: transparent;
+}
+
+.material-symbols-outlined{
+    padding-top: 10px;
+    margin-left: 200px;
+}
+
+#left-container>p{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    color: rgb(41, 45, 49);
+}
+
+#left-container-labels>div{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    font-size: 19px;
+    color: rgb(51, 62, 72);
+}
+
+#left-container-labels>div>input{
+    cursor: pointer;
+}
+
+#left-container-labels>div>label{
+    padding-left: 10px;
+    user-select: none;
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+}
+
+#right-container{
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 30px 10px;
+    padding: 30px;
+    padding-left: 75px;
+    overflow-y: scroll;
+    height: 600px;
+}
+
+.child-box{
+    height: 200px;
+    border-radius: 5px;
+    width: 90%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+}
+
+.child-box>p{
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#show{
+    color: rgb(49, 191, 111);
+}
+
+#left-container>p:nth-child(1){
+    color: rgb(120, 122, 124);
+    font-size: 18px;
+}
+
+</style>
 </head>
 <body>
     <div id="navbar" class="sticky">
@@ -138,170 +257,164 @@
         </div>
     </div>
 
-    <div id="typing">
-       <h1>
-        <a href="" class="typewrite" data-period="2000" data-type='[ "Are my employees happy at work?", "Do people like attending my events?", "Are my customers actually satisfied?", "Are my customers actually satisfied?" ]'>
-
-          <span class="wrap"></span>
-        </a>
-      </h1>
-      <h4 id="info">A global leader in survey software. 20 million questions answered daily.</h4>
-      <button id="green-button">Get started</button>
-    </div>
-    
-    <div id="banner1">
-        <div id="who">
-            <h3>Who is your survey audience?</h3>
-        </div>
-        <div id="audience">
-            <button>Employees</button>
-            <button>Customers</button>
-            <button>Target Markets</button>
-            <button>Other</button>
-        </div>
-
-        <div id="grid_container">
-            <div id="first">
-                <img src="https://iili.io/HG4YCan.jpg" alt="">
-            </div>
-            <div id="allfour">
-                <img src="https://iili.io/HG4aD5g.jpg" alt="">
-                <img src="https://iili.io/HG4cvBp.jpg" alt="">
-                <img src="https://iili.io/HG4l6KB.jpg" alt="">
-                <img src="https://iili.io/HG40HlI.jpg" alt="">
-
-            </div>
-
-        </div>
-    </div>
-    <div id="banner2">
-        <h4>Join more than 17 million active users worldwide</h4>
-        <div>
-            <img src="https://iili.io/HG4i6jn.jpg" alt="">
-        </div>
-    </div>
-    <div id="banner3">
-        <h3>Choose a plan that works for you</h3>
-        <h4>Get an individual plan with features that you need, or create a team instead!</h4>
-        <div>
-            <img src="https://iili.io/HG4yON4.jpg" alt="">
-            <img src="https://iili.io/HG4yiRj.jpg" alt="">
-            <img src="https://iili.io/HG69C0X.jpg" alt="">
-        </div>
-    </div>
-    <div id="banner4">
-        <img src="https://iili.io/HG6FngS.jpg" alt="">
-    </div>
-    <div id="banner5">
-        <p style="font-size: 30px; font-weight: 600;">Start with an expert-written template</p>
-        <p><span id="blue"> Our sample survey templates</span> make it easy for you to start collecting feedback in just minutes.<br>Explore hundreds of questions across different survey types, all designed<br>to get you accurate results you can rely on.</p>
-    </div>
-
-<!-- ===================================== -->
-<!-- scroll products -->
+    <!-- container -->
 
     <div id="container">
         <div id="left-container">
             <p id="show-all-templates"></p>
             <div>
-                <input type="text" placeholder="Search"><span class="material-symbols-outlined"><i class="fa fa-search" id="search"></i></span>
+                <input type="text" placeholder="Search"><span class="material-symbols-outlined">search</span>
             </div>
             <p>Filter by survey type</p>
             <div id="left-container-labels">
                 <div>
-                    <input class="checkbox" onclick="sortby()" name="checkbox" data-id="" type="radio" value="customers">
-                    <label style="margin-bottom: -5px;">Customers</label>
+                    <input class="checkbox" name="checkbox" data-id="" type="radio" value="customers">
+                    <label>Customers</label>
                 </div>
                 <div>
-                    <input class="checkbox" onclick="sortby()" name="checkbox" data-id="" type="radio" value="education">
-                    <label style="margin-bottom: -5px;">Education</label> 
+                    <input class="checkbox" name="checkbox" data-id="" type="radio" value="education">
+                    <label>Education</label> 
                 </div>
                 <div>
-                    <input class="checkbox" onclick="sortby()" name="checkbox" data-id="" type="radio" value="employees">
-                    <label style="margin-bottom: -5px;">Employees</label> 
+                    <input class="checkbox" name="checkbox" data-id="" type="radio" value="employees">
+                    <label>Employees</label> 
                 </div>
                 <div>
                     <input class="checkbox" name="checkbox" data-id="" type="radio" value="events">
-                    <label style="margin-bottom: -5px;">Events</label> 
+                    <label>Events</label> 
                 </div>
                 <div>
                     <input class="checkbox" name="checkbox" data-id="" type="radio" value="healthcare">
-                    <label style="margin-bottom: -5px;">Healthcare</label> 
+                    <label>Healthcare</label> 
                 </div>
                 <div>
                     <input class="checkbox" name="checkbox" data-id="" type="radio" value="market research">
-                    <label style="margin-bottom: -5px;">Market Research</label> 
+                    <label>Market Research</label> 
                 </div>
                 <div>
                     <input class="checkbox" name="checkbox" data-id="" type="radio" value="nonprofit">
-                    <label style="margin-bottom: -5px;">Nonprofit</label> 
+                    <label>Nonprofit</label> 
                 </div>
                 <div>
                     <input class="checkbox" name="checkbox" data-id="" type="radio" value="other">
-                    <label style="margin-bottom: -5px;">Other</label> 
+                    <label>Other</label> 
                 </div>
             </div>
         </div>
         <div id="right-container"></div>
     </div>
 
-    <div id="banner9">
-        <p style="font-size: 30px; font-weight: 600;">Tools that spark business breakthroughs</p>
-        <p> Discover specialized toolkits designed for your role and industry.</p>
-    </div>
-    <div id="banner10">
-        <img src="https://iili.io/HG6Yqg9.jpg" alt="">
-    </div>
-<!-- ===================================== -->
-<!-- footer -->
-    <div id="banner7">
-        <p style="font-size: 30px; font-weight: 600;">Go beyond collecting feedback-deliver better<br>experiences that drive your business</p>
-        <div>
-            <div>
-                <img src="https://prod.smassets.net/assets/cms/sm/uploads//Momentive-Symbol-RGB-1-1.png">
-                <p style="font-size: 25px; font-weight: 600;">Momentive Solutions</p>
-                <p>Get a platform that can grow and change along with your survey needs over time. Browse our plans to learn more about specific features.</p>
-                <button>Visit Momentive</button>
-            </div>
-            <div>
-                <img src="https://prod.smassets.net/assets/cms/sm/uploads//gfp-logo-rgb-2x-1.png">
-                <p style="font-size: 25px; font-weight: 600;">GetFeedback</p>
-                <p>Manage your company’s data with advanced security and control, so you can enable your teams to share and collaborate safely.</p>
-                <button>Visit GetFeedback</button>
-            </div>
-        </div>
-    </div>
-    <div id="banner8">
-        <p style="font-size: 30px; font-weight: 600;">Still curious?</p>
-        <p>Explore these additional resources to help you launch successful survey projects.</p> 
-        <div>
-            <div>
-                <img src="https://prod.smassets.net/assets/cms/sm/uploads//golden-state-warriors.png">
-                <h4>Success Stories</h4>
-                <p>Read about our customers, explore our webinars, and get guides on collecting feedback in your industry.</p>
-                <p id="blue">Explore resources</p>
-            </div>
-            <div>
-                <img src="https://prod.smassets.net/assets/cms/sm/uploads//blog-tile-card.png">
-                <h4>Blog</h4>
-                <p>Get tips on how to create better surveys, hear the latest product news, or check out our signature research.</p>
-                <p id="blue">See Curiosity at Work</p>
-            </div>
-            <div>
-                <img src="https://prod.smassets.net/assets/cms/sm/uploads//help-center-tile.png">
-                <h4>Help Center</h4>
-                <p>Access tutorials on how features work, learn more about billing, contact Customer Support, and more.</p>
-                <p id="blue">Visit Help Center</p>
-            </div>
-        </div>
-    </div>
-    <div id="banner11">
-        <img src="https://iili.io/HG6ewb4.jpg" alt="">
-    </div>
-    <div id="banner12">
-        <img src="https://iili.io/HG68eXR.jpg" alt="">
-
-    </div>
-    
 </body>
 </html>
+
+<script src="api_append.js"></script>
+<script>
+    
+let data=[]
+let show_all_templates=0;
+
+// getting the data on load
+
+window.addEventListener('load',async ()=>{
+    let fetchedProducts=await fetch('https://636a23c5b10125b78fd19a2e.mockapi.io/products', {
+        method: 'GET',
+        headers: {
+            'content-Type': 'application/json'
+        }
+    })
+    if(fetchedProducts.ok){
+        let res=await fetchedProducts.json()
+        data=[...res]
+        // console.log(res)
+        // console.log(res.length)
+        renderData(data)
+
+        show_all_templates=res.length
+        document.querySelector('#show-all-templates').innerHTML=`Showing <span id="show">${show_all_templates}</span> templates`
+
+        
+    }
+})
+
+// rendering the data to the DOM
+
+function renderData(data){
+    let renderto= document.querySelector('#right-container');
+
+    let newData=data.map((elem)=>{
+        return `
+        <div style="background-image: url(${elem.image});" class="child-box">
+        <p>${elem.title}</p>
+        </div>
+        `
+    })
+
+    renderto.innerHTML=newData.join('');
+}
+
+// click function on left container- checkbox
+
+let a=document.querySelectorAll('.checkbox')
+
+for(let select of a){
+    select.addEventListener('click', function(event){
+        document.querySelector('#left-container>div:nth-child(2)>input').value=null;
+        
+        // console.log(event)
+        let clicked=event.target.defaultValue
+        let renderto= document.querySelector('#right-container');
+        renderto.innerHTML=null
+
+        let filteredData=data.filter((elem)=>{
+            return elem.category==clicked
+        })
+        renderData(filteredData)
+        // renderto.innerHTML=filteredData.join('');
+
+        show_all_templates=filteredData.length
+        document.querySelector('#show-all-templates').innerHTML=`Showing <span id="show">${show_all_templates}</span> templates`
+    })
+}
+
+document.querySelector('#left-container>div:nth-child(2)>input').addEventListener('input',search);
+
+
+// search functionality
+
+function search(){
+    unclick()
+    let input=document.querySelector('#left-container>div:nth-child(2)>input').value;
+    let newData=data.filter((element)=>{
+        let entrered=element.title.toLowerCase().includes(input.toLowerCase());
+        if(input){
+            return entrered;
+        }
+        else{
+            console.log('Nothing to search')
+        }
+    })
+    if(newData.length==0){
+        renderData(data)
+        show_all_templates=data.length
+        document.querySelector('#show-all-templates').innerHTML=`Showing <span id="show">${show_all_templates}</span> templates`
+    }
+    else{
+        renderData(newData)
+        show_all_templates=newData.length
+        document.querySelector('#show-all-templates').innerHTML=`Showing <span id="show">${show_all_templates}</span> templates`
+    }
+
+}
+
+
+// unclick function on checkbox
+
+function unclick(){
+    let a=document.querySelectorAll('#left-container-labels');
+    let n=a[0].children.length
+
+    for(let i=0;i<n;i++){
+        a[0].children[i].children[0].checked=false
+    }
+}
+</script>
