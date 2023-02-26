@@ -7,8 +7,8 @@ const getRouter=express.Router()
 getRouter.get("/",async(req,res)=>{
 
     try{
-        let foods=await SurveyModel.find()
-        res.send(foods)
+        let surveys=await SurveyModel.find()
+        res.send(surveys)
     }
     catch(err){
         console.log(err)
